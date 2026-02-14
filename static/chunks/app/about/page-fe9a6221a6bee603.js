@@ -1,0 +1,627 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [220],
+  {
+    3979: (e, t, s) => {
+      "use strict";
+      s.d(t, { default: () => ea });
+      var a = s(5155),
+        l = s(2115),
+        i = s(7471),
+        n = s(9946);
+      let r = (0, n.A)("chevron-left", [
+          ["path", { d: "m15 18-6-6 6-6", key: "1wnfg3" }],
+        ]),
+        d = (0, n.A)("chevron-right", [
+          ["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }],
+        ]);
+      var o = s(8769),
+        m = s(5846),
+        c = s(9751),
+        h = s(1856),
+        u = s(8754),
+        f = s(5269),
+        A = s(8686),
+        x = s(623),
+        g = s(5523),
+        b = s(6455),
+        v = s(6344),
+        p = s(8226),
+        w = s(9173),
+        j = s(8502),
+        y = s(1240),
+        P = s(3159),
+        N = s(6579),
+        k = s(2859),
+        F = s(2750),
+        C = s(1599),
+        I = s(3781),
+        D = s(9700),
+        E = s(1144),
+        S = s(8290),
+        B = s(9514),
+        Q = s(6771),
+        _ = s(1769),
+        T = s(2598),
+        M = s(8094),
+        R = s(5310),
+        U = s(726),
+        G = s(4951),
+        W = s(5182),
+        z = s(2626),
+        K = s(2218),
+        Y = s(2628),
+        H = s(3807),
+        L = s(56),
+        O = s(287),
+        X = s(9847),
+        q = s(1845);
+      s(4917);
+      var Z = s(1936),
+        J = s(9388);
+      let V = [
+          { name: "Abdul", image: o.default },
+          { name: "Abhisek", image: m.default },
+          { name: "Aby", image: c.default },
+          { name: "Aishwarya", image: h.default },
+          { name: "Amit", image: u.default },
+          { name: "Anesh", image: f.default },
+          { name: "Anish", image: A.default },
+          { name: "Ankitha", image: x.default },
+          { name: "Archana", image: b.default },
+          { name: "Poovaraghan", image: B.default },
+          { name: "AshuMahesh", image: v.default },
+          { name: "Atul", image: p.default },
+          { name: "Aysha", image: w.default },
+          { name: "Bharath", image: j.default },
+          { name: "David", image: y.default },
+          { name: "Druwi", image: P.default },
+          { name: "Fahad", image: N.default },
+          { name: "Gowri", image: k.default },
+          { name: "Harini", image: F.default },
+          { name: "Harshitha", image: C.default },
+          { name: "Jai", image: I.default },
+          { name: "Kanak", image: D.default },
+          { name: "Naveen", image: S.default },
+          { name: "PreetiMohan", image: Q.default },
+          { name: "Priyanka", image: _.default },
+          { name: "Reena", image: T.default },
+          { name: "Ruchi", image: M.default },
+          { name: "Saniyah", image: U.default },
+          { name: "Sarvar", image: G.default },
+          { name: "Shaan", image: W.default },
+          { name: "Shapna", image: K.default },
+          { name: "Shaurya", image: Y.default },
+          { name: "Somasekar", image: H.default },
+          { name: "Soumi", image: L.default },
+          { name: "Subhashini", image: O.default },
+          { name: "Surendar", image: X.default },
+          { name: "Thanjai", image: q.default },
+          { name: "Tom", image: Z.default },
+          { name: "Vijay", image: J.default },
+          { name: "Apoorva", image: g.default },
+          { name: "Kashifa", image: E.default },
+          { name: "Safiyah", image: R.default },
+          { name: "Shamim", image: z.default },
+          { name: "David", image: y.default },
+        ],
+        $ = [
+          "pb-30",
+          "pb-48",
+          "pb-25",
+          "pb-40",
+          "pb-26",
+          "pb-44",
+          "pb-34",
+          "pb-24",
+        ],
+        ee = [[5], [15, -5], [8], [2]],
+        et = (e) => ee[e % ee.length],
+        es = [
+          ["55% women driving innovation and efficiency."],
+          ["Diverse workforce leading the way."],
+          ["Team owns their impact with pride."],
+          ["Team chooses workspaces—remote or in-office."],
+          ["Flat structure: they’re the boss, no bureaucracy."],
+          ["We don’t wait for change—we drive it."],
+          ["Every line of code, every decision—owned with pride."],
+          ["Accountability isn’t assigned, it’s embraced."],
+          ["We build with purpose, and it shows."],
+          ["Delivering excellence is not a task—it’s a mindset."],
+          ["No red tape, just real results."],
+          ["Everyone leads. Everyone delivers."],
+          ["Flat by design. Fast by nature."],
+          ["Hierarchy out, ownership in."],
+          ["Leadership is a role, not a rank."],
+          ["Different minds, united mission."],
+          ["Innovation thrives where voices differ."],
+        ],
+        ea = () => {
+          let e = (0, l.useRef)(null),
+            t = (0, l.useRef)(null),
+            [s, n] = (0, l.useState)(0),
+            [o, m] = (0, l.useState)(!0),
+            c = V.length,
+            h = (() => {
+              let e = [],
+                t = 0,
+                s = 0;
+              for (; s < es.length; ) {
+                for (let a = 0; a < 4 && s < es.length; a++) {
+                  let a = t++ % c,
+                    l = t++ % c;
+                  e.push({ type: "label", slotIndexes: [a, l] }), s++;
+                }
+                let a = t++ % c,
+                  l = t++ % c;
+                e.push({ type: "spacer", slotIndexes: [a, l] });
+              }
+              let a = e.flatMap((e) => e.slotIndexes),
+                l = Array.from({ length: c }, (e, t) => t),
+                i = [...l.filter((e) => !a.includes(e))];
+              if (i.length % 2 != 0) {
+                let e = l.find((e) => !i.includes(e));
+                void 0 !== e && i.push(e);
+              }
+              for (let t = 0; t < i.length; t += 2)
+                e.push({ type: "spacer", slotIndexes: [i[t], i[t + 1]] });
+              return e;
+            })();
+          (0, l.useEffect)(() => {
+            let e;
+            if (!o || !t.current) return;
+            let a = null,
+              l = t.current.scrollWidth / 3,
+              i = (t) => {
+                if (null !== a) {
+                  let e = s + (50 * (t - a)) / 1e3;
+                  e >= l && (e -= l), n(e);
+                }
+                (a = t), (e = requestAnimationFrame(i));
+              };
+            return (
+              (e = requestAnimationFrame(i)), () => cancelAnimationFrame(e)
+            );
+          }, [o, s]),
+            (0, l.useEffect)(() => {
+              t.current &&
+                (t.current.style.transform = "translateX(".concat(-s, "px)"));
+            }, [s]);
+          let u = (e) => {
+              if (!t.current) return;
+              let a = t.current.scrollWidth / 3,
+                l = s + e;
+              l < 0 ? (l += a) : l >= a && (l -= a), n(l);
+            },
+            f = () => {
+              let e = 0;
+              return (0, a.jsx)("div", {
+                className: "flex select-none pointer-events-none",
+                children: h.map((t, s) => {
+                  let l = $[s % $.length],
+                    n = "label" === t.type,
+                    r = n ? es[e] : null,
+                    d = et(e),
+                    o = r
+                      ? r.map((e, t) => {
+                          var s;
+                          let l = null != (s = d[t]) ? s : 10;
+                          return (0, a.jsx)(
+                            "div",
+                            {
+                              className:
+                                "absolute z-10 whitespace-nowrap top-0",
+                              style: {
+                                top: "".concat(l, "%"),
+                                transform: "translateY(0%)",
+                              },
+                              children: (0, a.jsx)(i.A, { text: e }),
+                            },
+                            t
+                          );
+                        })
+                      : null;
+                  return (
+                    n && e++,
+                    (0, a.jsxs)(
+                      "div",
+                      {
+                        className: "flex items-stretch h-screen mt-10 relative",
+                        children: [
+                          (0, a.jsx)("div", {
+                            className: "".concat(
+                              l,
+                              " justify-end flex flex-col items-end"
+                            ),
+                            children: t.slotIndexes.map((e, t) => {
+                              let l = V[e];
+                              return (0, a.jsx)(
+                                "div",
+                                {
+                                  className:
+                                    "relative h-[215px] w-[172px] border-4 border-white bg-white overflow-hidden",
+                                  children: (0, a.jsx)("img", {
+                                    src: l.image.src,
+                                    alt: l.name,
+                                    className:
+                                      "absolute inset-0 w-full h-full grayscale-50 object-cover pointer-events-none",
+                                  }),
+                                },
+                                2 * s + t
+                              );
+                            }),
+                          }),
+                          (0, a.jsx)("div", {
+                            className: "h-full",
+                            style: {
+                              width: "1px",
+                              background:
+                                "linear-gradient(to bottom, transparent, #4444445a, transparent)",
+                            },
+                          }),
+                          o &&
+                            (0, a.jsx)("div", {
+                              className: "flex relative",
+                              children: o,
+                            }),
+                        ],
+                      },
+                      s
+                    )
+                  );
+                }),
+              });
+            };
+          return (0, a.jsx)("div", {
+            className: "relative overflow-hidden",
+            style: { width: "100vw" },
+            children: (0, a.jsxs)("div", {
+              ref: e,
+              className: "flex",
+              style: { width: "max-content", overflow: "hidden" },
+              children: [
+                (0, a.jsxs)("div", {
+                  className:
+                    "absolute p-5 mt-20 flex z-3 justify-between mb-4 gap-4 w-full h-full items-center",
+                  children: [
+                    (0, a.jsx)("button", {
+                      className:
+                        "w-10 h-10 flex bg-white shadow hover:text-white cursor-pointer text-black items-center justify-center rounded-full hover:bg-gray-800 transition",
+                      onClick: () => u(-200),
+                      children: (0, a.jsx)(r, {}),
+                    }),
+                    (0, a.jsx)("button", {
+                      className:
+                        "w-10 h-10 flex md:mr-5 bg-white shadow hover:text-white cursor-pointer text-black items-center justify-center rounded-full hover:bg-gray-800 transition",
+                      onClick: () => u(200),
+                      children: (0, a.jsx)(d, {}),
+                    }),
+                  ],
+                }),
+                (0, a.jsx)("div", {
+                  ref: t,
+                  className: "flex relative z-1",
+                  style: { willChange: "transform" },
+                  children: Array.from({ length: 3 }).map((e, t) =>
+                    (0, a.jsx)(l.Fragment, { children: f() }, t)
+                  ),
+                }),
+              ],
+            }),
+          });
+        };
+    },
+    4412: (e, t, s) => {
+      "use strict";
+      s.r(t), s.d(t, { default: () => a });
+      let a = {
+        src: "/_next/static/media/Globe.f8f8e467.jpg",
+        height: 4096,
+        width: 4096,
+        blurDataURL:
+          "data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAACOg//EABgQAAIDAAAAAAAAAAAAAAAAAAACERJi/9oACAEBAAE/AIW2T//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Af//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z",
+        blurWidth: 8,
+        blurHeight: 8,
+      };
+    },
+    4955: (e, t, s) => {
+      "use strict";
+      s.r(t), s.d(t, { default: () => a });
+      let a = {
+        src: "/_next/static/media/City.17c77f88.svg",
+        height: 434,
+        width: 1333,
+        blurWidth: 0,
+        blurHeight: 0,
+      };
+    },
+    7199: (e) => {
+      e.exports = {
+        style: {
+          fontFamily: "'Merriweather', 'Merriweather Fallback'",
+          fontStyle: "italic",
+        },
+        className: "__className_b24f37",
+      };
+    },
+    7471: (e, t, s) => {
+      "use strict";
+      s.d(t, { A: () => l });
+      var a = s(5155);
+      s(2115);
+      let l = (e) => {
+        let { text: t, className: s = "" } = e;
+        return (0, a.jsx)("div", {
+          className:
+            "flex border-l-3 border-l-[#4C96D7] bg-white shadow-[0_10px_10px_-10px_rgba(33,35,38,0.1)] p-2 items-center",
+          children: (0, a.jsx)("span", {
+            className: "text-sm font-medium text-gray-800 w-full ".concat(
+              s || "text-center"
+            ),
+            children: t,
+          }),
+        });
+      };
+    },
+    7697: (e, t, s) => {
+      "use strict";
+      s.d(t, { default: () => h });
+      var a = s(5155),
+        l = s(3989),
+        i = s(2012);
+      let n = {
+        src: "/_next/static/media/Three-Bars.7456add7.svg",
+        height: 244,
+        width: 414,
+      };
+      var r = s(9265),
+        d = s(7833),
+        o = s(1132);
+      s(2115);
+      let m = (e) => {
+        let { id: t, title: s, description: l, bgColor: i } = e;
+        return (0, a.jsxs)(
+          "div",
+          {
+            className:
+              "flex flex-col gap-4 max-w-full  md:max-w-[290px] w-full md:mx-auto",
+            children: [
+              (0, a.jsx)("div", {
+                className:
+                  "p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base",
+                style: { backgroundColor: i },
+                children: s,
+              }),
+              (0, a.jsx)("p", {
+                className:
+                  "text-sm text-[#444444] font-medium pl-1 md:pl-0 md:max-w-[280px]",
+                children: l,
+              }),
+            ],
+          },
+          t
+        );
+      };
+      var c = s(5695);
+      let h = () => {
+        let e = (0, c.useRouter)();
+        return (0, a.jsx)("section", {
+          className: "text-black relative w-full h-full",
+          style: {
+            backgroundImage:
+              "linear-gradient(to bottom, rgba(217, 229, 251, 1) 0%, #ffff 80%)",
+          },
+          children: (0, a.jsxs)("div", {
+            className:
+              "relative z-10 w-full p-5 grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 grid-rows-1 gap-5 max-w-7xl mx-auto px-4 lg:px-0 items-center justify-center",
+            children: [
+              (0, a.jsxs)("div", {
+                className:
+                  "col-span-4 sm:col-span-6 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-2 flex flex-col gap-4 items-center relative justify-center md:mt-10",
+                children: [
+                  (0, a.jsx)(l.A, {
+                    className:
+                      "p-2 flex bg-white rounded-full px-4 font-medium text-sm",
+                    children: "About us",
+                  }),
+                  (0, a.jsx)(i.A, {
+                    className:
+                      "font-semibold text-2xl md:text-[56px] max-w-[50rem] !text-center",
+                    tag: "p",
+                    children:
+                      "Powering Growth with Smart Tech and Scalable Teams",
+                  }),
+                  (0, a.jsx)("div", {
+                    className:
+                      "text-[#FFBB00] flex w-10 h-10 md:h-30 md:block md:w-fit -mt-5 mb-10 md:mb-8",
+                    children: o.jR,
+                  }),
+                ],
+              }),
+              (0, a.jsxs)("div", {
+                className:
+                  "col-span-4 sm:col-span-6 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-2 flex flex-col xl:gap-25 gap-10 sm:gap-20",
+                children: [
+                  (0, a.jsxs)("div", {
+                    className:
+                      "w-full flex gap-10 justify-between md:h-[300px]",
+                    children: [
+                      (0, a.jsxs)("div", {
+                        className:
+                          " flex gap-2 md:gap-4 flex-col h-full w-full md:w-1/2",
+                        children: [
+                          (0, a.jsx)(l.A, {
+                            className:
+                              "p-1.5 flex bg-[#D2D2FF] rounded-full w-fit text-xs mb-4 md:mb-0  px-2",
+                            children: "Our Story",
+                          }),
+                          (0, a.jsxs)("div", {
+                            className: "flex flex-col gap-5 sm:max-w-[90%]",
+                            children: [
+                              (0, a.jsx)(i.A, {
+                                className: "font-semibold xl:text-xl",
+                                children:
+                                  "EvolTech, founded in October 2015, specializes in technology development and hybrid captive operations support.",
+                              }),
+                              (0, a.jsx)(i.A, {
+                                className: "xl:text-lg sm:text-base",
+                                children:
+                                  "With offices in the US and India, we deliver scalable tech solutions and seamless operational teams.",
+                              }),
+                              (0, a.jsx)(i.A, {
+                                className: "xl:text-lg sm:text-base",
+                                children:
+                                  "Led by a strong leadership team with expertise in Banking and Financial Services, Fintech, Retail, and Insurance, our consultancy drives your business forward with industry-leading insights.",
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                      (0, a.jsx)("div", {
+                        className:
+                          " h-full hidden md:flex pb-5 items-end justify-end w-1/3",
+                        children: (0, a.jsx)("img", {
+                          src: n.src,
+                          alt: "Three bars icon",
+                          width: n.width,
+                          height: n.height,
+                          className: "flex items-end",
+                        }),
+                      }),
+                    ],
+                  }),
+                  (0, a.jsxs)("div", {
+                    className:
+                      "col-span-4 sm:col-span-6 lg:col-span-10 col-start-1 sm:col-start-2 w-full flex md:flex-row flex-col gap-5 justify-between md:h-[300px] h-full mb-10",
+                    children: [
+                      (0, a.jsxs)("div", {
+                        className:
+                          "h-full w-full md:w-[calc(33.333333%+3rem)] flex flex-col gap-5",
+                        children: [
+                          (0, a.jsx)(i.A, {
+                            className:
+                              "font-semibold text-4xl sm:text-4xl xl:text-[56px]",
+                            tag: "p",
+                            children: "Why EvolTech?",
+                          }),
+                          (0, a.jsx)(i.A, {
+                            className: "font-semibold sm:text-xl",
+                            children:
+                              "Your partner for innovation, efficiency, and growth.",
+                          }),
+                          (0, a.jsx)("div", {
+                            className:
+                              "text-[#8DCAFF] hidden justify-end items-end mt-4 w-full md:flex",
+                            children: o.$9,
+                          }),
+                        ],
+                      }),
+                      (0, a.jsxs)("div", {
+                        className:
+                          "h-full items-end justify-end w-full md:w-fit",
+                        children: [
+                          (0, a.jsx)("div", {
+                            className:
+                              "grid grid-cols-1 sm:grid-cols-2 gap-10 justify-center",
+                            children: d.VF.map((e, t) =>
+                              (0, a.jsx)(
+                                m,
+                                {
+                                  id: e.id,
+                                  title: e.title,
+                                  description: e.description,
+                                  bgColor: e.bgColor,
+                                },
+                                e.id
+                              )
+                            ),
+                          }),
+                          (0, a.jsx)("div", {
+                            className:
+                              "w-full mt-7 md:mt-4 flex items-center md:justify-start justify-start",
+                            children: (0, a.jsxs)(l.A, {
+                              onClick: () => e.push("/services/consulting"),
+                              className:
+                                "w-fit gap-2 items-center justify-center sm:justify-start pr-2 pl-6 py-2 flex cursor-pointer  bg-[#FFBB00] rounded-full text-sm",
+                              children: [
+                                (0, a.jsx)("span", {
+                                  className: "font-semibold",
+                                  children: "More services",
+                                }),
+                                (0, a.jsx)("span", {
+                                  children: (0, a.jsx)(r.A, { size: 18 }),
+                                }),
+                              ],
+                            }),
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+        });
+      };
+    },
+    9975: (e, t, s) => {
+      Promise.resolve().then(s.t.bind(s, 6874, 23)),
+        Promise.resolve().then(s.bind(s, 1075)),
+        Promise.resolve().then(s.bind(s, 3979)),
+        Promise.resolve().then(s.bind(s, 8876)),
+        Promise.resolve().then(s.bind(s, 7697)),
+        Promise.resolve().then(s.bind(s, 588)),
+        Promise.resolve().then(s.bind(s, 4955)),
+        Promise.resolve().then(s.bind(s, 4412)),
+        Promise.resolve().then(s.bind(s, 8769)),
+        Promise.resolve().then(s.bind(s, 5846)),
+        Promise.resolve().then(s.bind(s, 9751)),
+        Promise.resolve().then(s.bind(s, 1856)),
+        Promise.resolve().then(s.bind(s, 8754)),
+        Promise.resolve().then(s.bind(s, 5269)),
+        Promise.resolve().then(s.bind(s, 8686)),
+        Promise.resolve().then(s.bind(s, 623)),
+        Promise.resolve().then(s.bind(s, 5523)),
+        Promise.resolve().then(s.bind(s, 6455)),
+        Promise.resolve().then(s.bind(s, 6344)),
+        Promise.resolve().then(s.bind(s, 8226)),
+        Promise.resolve().then(s.bind(s, 9173)),
+        Promise.resolve().then(s.bind(s, 8502)),
+        Promise.resolve().then(s.bind(s, 1240)),
+        Promise.resolve().then(s.bind(s, 3159)),
+        Promise.resolve().then(s.bind(s, 6579)),
+        Promise.resolve().then(s.bind(s, 2859)),
+        Promise.resolve().then(s.bind(s, 2750)),
+        Promise.resolve().then(s.bind(s, 1599)),
+        Promise.resolve().then(s.bind(s, 3781)),
+        Promise.resolve().then(s.bind(s, 9700)),
+        Promise.resolve().then(s.bind(s, 1144)),
+        Promise.resolve().then(s.bind(s, 8290)),
+        Promise.resolve().then(s.bind(s, 9514)),
+        Promise.resolve().then(s.bind(s, 6771)),
+        Promise.resolve().then(s.bind(s, 1769)),
+        Promise.resolve().then(s.bind(s, 2598)),
+        Promise.resolve().then(s.bind(s, 8094)),
+        Promise.resolve().then(s.bind(s, 5310)),
+        Promise.resolve().then(s.bind(s, 726)),
+        Promise.resolve().then(s.bind(s, 4951)),
+        Promise.resolve().then(s.bind(s, 5182)),
+        Promise.resolve().then(s.bind(s, 2626)),
+        Promise.resolve().then(s.bind(s, 2218)),
+        Promise.resolve().then(s.bind(s, 2628)),
+        Promise.resolve().then(s.bind(s, 3807)),
+        Promise.resolve().then(s.bind(s, 56)),
+        Promise.resolve().then(s.bind(s, 287)),
+        Promise.resolve().then(s.bind(s, 9847)),
+        Promise.resolve().then(s.bind(s, 1845)),
+        Promise.resolve().then(s.bind(s, 4917)),
+        Promise.resolve().then(s.bind(s, 1936)),
+        Promise.resolve().then(s.bind(s, 9388));
+    },
+  },
+  (e) => {
+    var t = (t) => e((e.s = t));
+    e.O(0, [858, 80, 874, 132, 125, 494, 512, 441, 684, 358], () => t(9975)),
+      (_N_E = e.O());
+  },
+]);
