@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" scroll-beha>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="preload" href="/_next/static/media/4cf2300e9c8272f7-s.p.woff2" as="font" crossorigin=""
+    type="font/woff2" />
+  <link rel="preload" href="/_next/static/media/93f479601ee12b01-s.p.woff2" as="font" crossorigin=""
+    type="font/woff2" />
+  <link rel="preload" href="/_next/static/media/82050c55ac1c8c11-s.p.woff2" as="font" crossorigin=""
+    type="font/woff2" />
+  
+  <link rel="stylesheet" href="css/ed11f461372a5574.css" data-precedence="next" />
+  <link rel="stylesheet" href="css/8bed9ef94e18e655.css" data-precedence="next" />
+  <link rel="preload" as="script" fetchpriority="low" href="/_next/static/chunks/webpack-8cbf346320b4a273.js" />
+  
+  <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-BT21FKPMCH" as="script" />
+  <meta name="next-size-adjust" content="" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <title>Track Sense Solutions</title>
+  <meta name="description"
+    content="We turn bold ideas into reality with AI, cloud, and full-stack solutions. With 25+ years of leadership and a global team 55% women, we drive innovation across finance, retail, insurance, and healthcare from the US and India." />
+  <meta property="og:title" content="Track Sense Solutions" />
+  <meta property="og:description"
+    content="We turn bold ideas into reality with AI, cloud, and full-stack solutions. With 25+ years of leadership and a global team 55% women, we drive innovation across finance, retail, insurance, and healthcare from the US and India." />
+  <meta name="twitter:description"
+    content="We bring visionary ideas to life with cutting-edge tech, strategic consulting, and seamless back office solutions." />
+  <link rel="icon" href="images/trackIcon.png" />
+  <script>
+    document
+      .querySelectorAll(
+        'body link[rel="icon"], body link[rel="apple-touch-icon"]'
+      )
+      .forEach((el) => document.head.appendChild(el));
+  </script>
+  <script src="js/polyfills-42372ed130431b0a.js" nomodule=""></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Contact overlay hidden by default */
+    #contactSection {
+      display: none;
+      /* hidden by default */
+      position: fixed;
+      inset: 0;
+      /* top:0; bottom:0; left:0; right:0 */
+      background-color: #1A1E3C;
+      /* solid dark blue */
+      color: #C6C7F3;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      padding: 20px;
+    }
+
+    /* Contact container */
+    .contact-container {
+      background-color: #1A1E3C;
+      /* solid dark blue */
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      color: #C6C7F3;
+    }
+
+    /* Heading styles */
+    .contact-container h2 {
+      font-size: 2rem;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .contact-container h2 span {
+      color: #86C7FF;
+      /* sky blue accent */
+    }
+
+    /* Close button */
+    #closeContact {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 2rem;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* Social links */
+    .contact-container .social {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    .contact-container .social a {
+      color: #86C7FF;
+      /* sky blue links */
+      text-decoration: none;
+    }
+
+    .contact-container .social a:hover {
+      color: white;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- contact page -->
+  <section id="contactSection">
+    <div class="contact-container">
+      <button id="closeContact">&times;</button>
+      <h2>Contact <span>Us</span></h2>
+
+      <div class="contact-info">
+        <p><strong>Address:</strong> </p>
+        <p><strong>Email:</strong> <a href="mailto:info@company.com">afroz.shaikh@tracksensesolutions.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@company.com">arif.shaikh@tracksensesolutions.com</a></p>
+        <p><strong>Follow Us:</strong></p>
+        <div class="social">
+          <a href="https://www.linkedin.com/company/track-sense-solutions" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <header class="w-full  fixed top-0 left-0 z-50 transition-all duration-300 md:bg-transparent">
+  <div class="grid bg-white grid-cols-4 sm:grid-cols-8  py-0">
+    
+    <div class="w-full h-full flex col-span-4 sm:col-span-8 col-start-1 lg:col-span-8 xl:col-span-12 lg:col-start-2 xl:col-start-1 justify-between items-center">
+      
+      <!-- Logo -->
+      <div class="relative flex items-center justify-center gap-4">
+        <a href="/">
+          <img class="w-25 h-22 m-0 p-0" src="images/tracksenseLogo-removebg-preview.png" alt="tracksense Logo" />
+        </a>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex flex-1 justify-center gap-5 sm:text-xs lg:text-sm xl:text-lg font-medium text-[#63A4DD] items-center">
+        <a class="hover:text-[#FFBB00] transition" href="#services">Services</a>
+        <span class="text-[#63A4DD]">/</span>
+        <a class="hover:text-[#FFBB00] transition" href="#about">About Us</a>
+        <span class="text-[#63A4DD]">/</span>
+        <a class="hover:text-[#FFBB00] transition text-[#63A4DD]" href="#" id="openContact">Contact Us</a>
+      </nav>
+
+
+    </div>
+  </div>
+
+ 
+</header>
+
+
+
+  <!-- nav    -->
+
+
+
+  <main class="bg-[#0B0F2B]  font-gilroy min-h-screen overflow-hidden">
+
+    <section class="text-black relative w-full h-full" style="
+          background-image: linear-gradient(
+            to bottom,
+            rgba(217, 229, 251, 1) 0%,
+            #ffff 80%
+          );
+        ">
+      <div id="about"
+        class="relative z-10 w-full p-5 grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 grid-rows-1 gap-5 max-w-7xl mx-auto px-4 lg:px-0 items-center justify-center">
+        <div
+          class="col-span-4 sm:col-span-6 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-2 flex flex-col gap-4 items-center relative justify-center md:mt-10">
+          
+          <p id="" class="font-semibold text-2xl md:text-[56px] max-w-[50rem] !text-center" title="">
+            Powering Growth with Smart Tech and Scalable Teams
+          </p>
+          
+        </div>
+        <div
+          class="col-span-4 sm:col-span-6 lg:col-span-10 col-start-1 sm:col-start-2 lg:col-start-2 flex flex-col xl:gap-25 gap-10 sm:gap-20">
+          <div class="w-full flex gap-10 justify-between md:h-[300px]">
+            <div class="flex gap-2 md:gap-4 flex-col h-full w-full md:w-1/2">
+              <button class="p-1.5 flex bg-[#D2D2FF] rounded-full w-fit text-xs mb-4 md:mb-0 px-2">
+                Our Story
+              </button>
+              <div class="flex flex-col justify-between:max-w-[90%]">
+                <p id="" class="font-semibold xl:text-xl" title="">
+                  At Track Sense Solutions, we are passionate about pioneering technological solutions that drive
+                  transformative change for businesses, communities, and industries worldwide. With an unwavering
+                  commitment to innovation and excellence, our goal is to empower organizations to unlock new
+                  opportunities, optimize operations, and build sustainable futures.
+                </p>
+
+              </div>
+            </div>
+            <div class="h-full hidden md:flex pb-5 items-end justify-end w-1/3">
+              <img class="w-fit h-fit" src="images/trackIcon.png" alt="Three bars icon" 
+                class="flex items-end" />
+            </div>
+          </div>
+          <div
+            class="col-span-4 sm:col-span-6 lg:col-span-10 col-start-1 sm:col-start-2 w-full flex md:flex-row flex-col gap-5 justify-between md:h-[300px] h-full mb-10">
+            <div class="h-full w-full md:w-[calc(33.333333%+3rem)] flex flex-col gap-5">
+              <p id="" class="font-semibold text-4xl sm:text-4xl xl:text-[56px]" title="">
+                Why TrackSense?
+              </p>
+              <p id="" class="font-semibold sm:text-xl" title="">
+                Your partner for innovation, efficiency, and growth.
+              </p>
+              
+            </div>
+            <div class="h-full items-end justify-end w-full md:w-fit">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 justify-center">
+                <div class="flex flex-col gap-4 max-w-full md:max-w-[290px] w-full md:mx-auto">
+                  <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                    style="background-color: #e4eff8">
+                    Tech Innovation
+                  </div>
+                  <p class="text-sm text-[#444444] font-medium pl-1 md:pl-0 md:max-w-[280px]">
+                    Cutting-edge solutions with AI, DevOps, and full-stack
+                    expertise.
+                  </p>
+                </div>
+                <div class="flex flex-col gap-4 max-w-full md:max-w-[290px] w-full md:mx-auto">
+                  <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                    style="background-color: #ebe9f9">
+                    Hybrid Operations
+                  </div>
+                  <p class="text-sm text-[#444444] font-medium pl-1 md:pl-0 md:max-w-[280px]">
+                    Seamless, scalable teams extending your operations
+                    capacity.
+                  </p>
+                </div>
+                <div class="flex flex-col gap-4 max-w-full md:max-w-[290px] w-full md:mx-auto">
+                  <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                    style="background-color: #e9f6e8">
+                    Global Reach
+                  </div>
+                  <p class="text-sm text-[#444444] font-medium pl-1 md:pl-0 md:max-w-[280px]">
+                    US and India offices delivering 24/7 support and
+                    solutions.
+                  </p>
+                </div>
+                <div class="flex flex-col gap-4 max-w-full md:max-w-[290px] w-full md:mx-auto">
+                  <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                    style="background-color: #faf3eb">
+                    Industry Expertise
+                  </div>
+                  <p class="text-sm text-[#444444] font-medium pl-1 md:pl-0 md:max-w-[280px]">
+                    Leadership in Banking, Fintech, Retail, and Insurance
+                    driving results.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- about us end here -->
+
+    
+
+    <!-- services -->
+    <section id="services" class="relative w-full bg-gradient-to-b from-[#eaf6ff] to-white text-[#0B0F2B]">
+      <div
+        class="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 grid-rows-1 gap-5 max-w-7xl mx-auto px-4 sm:px-10 lg:px-0">
+        <div
+          class="w-full col-span-4 sm:col-span-8 lg:col-span-10 col-start-1 lg:col-start-2 mx-auto flex flex-col items-center py-10 md:py-20">
+          <div class="mb-2 text-sm font-medium text-center"><span
+              class="inline-block bg-[#B6D2FF] rounded-full px-3 py-1 font-medium text-[#000000] shadow">Services &amp;
+              Solutions</span></div>
+          <p id=""
+            class="text-3xl md:text-5xl lg:text-4xl xl:text-6xl !text-center text-black !font-bold mb-3 leading-tight"
+            title=""><span>Unlock Growth with</span> <br /><span>Cutting-Edge Solutions</span></p>
+          <p class="text-center lg:max-w-xl xl:max-w-2xl mb-0 font-medium text-base lg:text-lg xl:text-2xl">Expert
+            consulting for growth, advanced tech solutions by full-stack, AI, and cloud computing, and efficient
+            operations support to streamline your business.</p>
+          
+          <div class="mt-4 md:mt-0 flex gap-[10px] mb-15 bg-[#58619D] rounded-full p-1 shadow-md overflow-x-auto">
+
+          </div>
+          <div class="w-full flex flex-col-reverse md:flex-row items-start gap-4 animate-fadein">
+            <div class="lg:flex-1 flex flex-col items-start md:p-4 lg:p-0">
+              <div class="flex items-center w-full md:w-auto justify-center md:justify-start mb-8 ">
+                <span class="text-3xl lg:text-5xl font-bold">What We Serve</span>
+              </div>
+              <p class="mb-4 text-base w-full lg:text-xl font-medium lg:mb-10 px-2 lg:px-0 md:w-full lg:w-xl"> We bring
+                visionary ideas to life with cutting-edge tech. Our engineers, experts in full-stack, AI, and cloud
+                computing, create innovative apps to fuel growth and efficiency.</p>
+              <div class="grid  grid-cols-1 md:grid-cols-2 gap-6  lg:w-xl">
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#E4EFF8">AI and Data & Analytics</div>
+                  </div>
+
+                </div>
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#EBE9F9">Cloud</div>
+                  </div>
+
+                </div>
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#E9F6E8">Congnitive Business Operations</div>
+                  </div>
+
+                </div>
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#FAF3EB">Consulting </div>
+                  </div>
+
+                </div>
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#F8ECF9">Cyber-Security</div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="grid  grid-cols-1 md:grid-cols-2 gap-6 py-8  lg:w-xl">
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#E4EFF8">Enterprise Solutions</div>
+                  </div>
+
+                </div>
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#EBE9F9">IoT Digital Engineering</div>
+                  </div>
+
+                </div>
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#E9F6E8">Network Solutions And Service</div>
+                  </div>
+
+                </div>
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#FAF3EB">Sustainability Services</div>
+                  </div>
+
+                </div>
+                <div class="flex flex-col gap-4 max-w-[290px] lg:max-w-full xl:max-w-[231px] w-full">
+                  <div class=" flex flex-row gap-1 lg:flex-col">
+                    <div class="p-1.5 w-fit px-3 flex rounded-full rounded-bl-none font-semibold text-black text-base"
+                      style="background-color:#F8ECF9">Healthcare</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="flex-1 p-10 pt-0 md:pt-0 md:p-0 flex justify-center relative perspective w-full">
+              <div class="
+            transition-transform duration-700 transform-style-preserve-3d w-full h-80 md:w-[330px] md:h-[520px]
+          
+          ">
+                <div class="absolute w-full h-full backface-hidden"><img
+                    src="images/whatweserveIMG.png" alt="Technology"
+                    class="rounded-[48px] w-full h-full object-cover" />
+                  <div style="mix-blend-mode:plus-lighter"
+                    class="absolute inset-0 rounded-[50px] bg-gradient-to-b from-[#190670] to-[#1B0A41] opacity-80 pointer-events-none">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="relative  py-20 z-10 w-full h-full grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 grid-rows-1 gap-5 max-w-7xl mx-auto px-4 lg:px-0">
+      <div
+        class="w-full h-full flex flex-col justify-center gap-4 col-span-4 sm:col-span-6 lg:col-span-8 xl:col-span-10 col-start-1  sm:col-start-2 lg:col-start-3 xl:col-start-2  md:gap-10 xl:gap-15 items-center">
+        <div class="flex flex-col md:gap-5 items-center relative">
+          <p id="" class="font-semibold mb-2 md:mb-0 text-3xl sm:text-5xl xl:text-6xl text-center" title="">Build<span
+              class="w-2 h-2 rounded-full bg-yellow-400 inline-block"></span> <span class="">Scale<span
+                class="w-2 h-2 rounded-full bg-yellow-400 inline-block"></span> </span>Succeed<span
+              class="w-2 h-2 rounded-full bg-yellow-400 inline-block"></span></p>
+          <p id="" class="text-sm md:text-sm xl:text-xl md:max-w-[32rem]  xl:max-w-[40rem] !text-center text-[#C5E1FF]"
+            title="">We bring visionary ideas to life with cutting-edge tech, strategic consulting, and seamless
+            operations solutions. Our engineers, experts in full-stack, AI, and cloud computing build innovative apps
+            and deliver operational excellence to fuel your growth and efficiency.</p>
+          <div
+            class="flex md:absolute mb-4 md:mb-0 w-10 h-10 md:w-16 xl:w-full md:left-25 md:bottom-11 xl:left-20 xl:bottom-13 text-[#8DCAFF]">
+            
+          </div>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap- lg:gap-6 w-full md:justify-items-center mx-auto">
+          <div
+            class="rounded-3xl lg:rounded-2xl xl:rounded-3xl border  border-[#41526c] px-4 py-4 h-[7rem] lg:h-[8rem] xl:h-[10rem] md:flex md:flex-col md:full lg:w-[12rem] xl:w-[15rem] text-left w-full md:justify-start relative">
+            <div class="w-1 bg-[#8DCAFF] h-6 absolute -left-0.5 top-5"></div>
+            <div class="font-semibold text-base md:text-2xl lg:text-lg xl:text-2xl text-white mb-1">Experience</div>
+            <div class="text-xs md:text-xl lg:text-xs xl:text-lg text-[#B7CAEA]">10+ years delivering innovative
+              Technology &amp; Operations.</div>
+          </div>
+          <div
+            class="rounded-3xl lg:rounded-2xl xl:rounded-3xl border  border-[#41526c] px-4 py-4 h-[7rem] lg:h-[8rem] xl:h-[10rem] md:flex md:flex-col md:full lg:w-[12rem] xl:w-[15rem] text-left w-full md:justify-start relative">
+            <div class="w-1 bg-[#8DCAFF] h-6 absolute -left-0.5 top-5"></div>
+            <div class="font-semibold text-base md:text-2xl lg:text-lg xl:text-2xl text-white mb-1">Team</div>
+            <div class="text-xs md:text-xl lg:text-xs xl:text-lg text-[#B7CAEA]">55% women powering our global
+              workforce through diversity.</div>
+          </div>
+          <div
+            class="rounded-3xl lg:rounded-2xl xl:rounded-3xl border  border-[#41526c] px-4 py-4 h-[7rem] lg:h-[8rem] xl:h-[10rem] md:flex md:flex-col md:full lg:w-[12rem] xl:w-[15rem] text-left w-full md:justify-start relative">
+            <div class="w-1 bg-[#8DCAFF] h-6 absolute -left-0.5 top-5"></div>
+            <div class="font-semibold text-base md:text-2xl lg:text-lg xl:text-2xl text-white mb-1">Leadership</div>
+            <div class="text-xs md:text-xl lg:text-xs xl:text-lg text-[#B7CAEA]">25+ years in Banking, Fintech, Retail
+              &amp; Healthcare expertise.</div>
+          </div>
+          <div
+            class="rounded-3xl lg:rounded-2xl xl:rounded-3xl border  border-[#41526c] px-4 py-4 h-[7rem] lg:h-[8rem] xl:h-[10rem] md:flex md:flex-col md:full lg:w-[12rem] xl:w-[15rem] text-left w-full md:justify-start relative">
+            <div class="w-1 bg-[#8DCAFF] h-6 absolute -left-0.5 top-5"></div>
+            <div class="font-semibold text-base md:text-2xl lg:text-lg xl:text-2xl text-white mb-1">Global Reach</div>
+            <div class="text-xs md:text-xl lg:text-xs xl:text-lg text-[#B7CAEA]">US &amp; India offices supporting
+              24/7 operations.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero section  -->
+
+
+
+    <div class="w-full bg-[#F8F8F8] py-16 lg:py-24 overflow-hidden">
+      <div class="text-black w-full flex flex-col items-center gap-10 md:gap-15 px-5">
+        <div class="flex flex-col gap-4 items-center text-center">
+          <button class="bg-[#D6ECFF] p-2 rounded-full px-4 font-medium text-sm">
+            The Partners & Affiliations
+          </button>
+          <p id="" class="text-3xl md:text-4xl xl:text-6xl font-semibold" title="">
+            Our Trusted<span class="inline-block w-10 h-10 mx-2 align-middle"><svg viewBox="0 0 40 40"
+                class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="8" fill="url(#paint0_linear_4209_41539)"></rect>
+                <path
+                  d="M27.4998 20.5717L19.9998 27.9997L12.4998 20.5717C12.0051 20.0903 11.6155 19.5117 11.3554 18.8723C11.0953 18.2329 10.9704 17.5466 10.9886 16.8566C11.0067 16.1666 11.1676 15.4878 11.461 14.863C11.7544 14.2382 12.1739 13.6809 12.6933 13.2263C13.2127 12.7716 13.8205 12.4294 14.4786 12.2212C15.1367 12.013 15.8308 11.9433 16.5172 12.0165C17.2035 12.0897 17.8673 12.3042 18.4667 12.6466C19.0661 12.9889 19.5881 13.4517 19.9998 14.0057C20.4133 13.4557 20.9359 12.997 21.5349 12.6583C22.1339 12.3196 22.7963 12.1081 23.4807 12.0372C24.1652 11.9663 24.8569 12.0374 25.5126 12.2461C26.1683 12.4548 26.7738 12.7966 27.2914 13.2501C27.8089 13.7035 28.2272 14.259 28.5202 14.8816C28.8132 15.5042 28.9746 16.1806 28.9941 16.8684C29.0137 17.5562 28.8911 18.2407 28.6339 18.8789C28.3768 19.5172 27.9907 20.0955 27.4998 20.5777"
+                  stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path
+                  d="M19.9998 14L16.7068 17.293C16.5194 17.4805 16.4141 17.7348 16.4141 18C16.4141 18.2652 16.5194 18.5195 16.7068 18.707L17.2498 19.25C17.9398 19.94 19.0598 19.94 19.7498 19.25L20.7498 18.25C21.3466 17.6533 22.1559 17.318 22.9998 17.318C23.8438 17.318 24.6531 17.6533 25.2498 18.25L27.4998 20.5"
+                  stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M20.5 23.5L22.5 25.5" stroke="white" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path d="M23 21L25 23" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+                <defs>
+                  <linearGradient id="paint0_linear_4209_41539" x1="-4.79616" y1="-4.1853" x2="21.4506" y2="54.2791"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#EF4747"></stop>
+                    <stop offset="1" stop-color="#E64C4E"></stop>
+                  </linearGradient>
+                </defs>
+              </svg></span>Industry Partners
+          </p>
+          <p id="" class="font-semibold xl:text-xl" title="">
+            Powering success with global innovators
+          </p>
+        </div>
+        <div class="relative w-full bg-red-500 overflow-hidden">
+          <div class="w-full ">
+            <div class=" flex  justify-center items-center" style="transform: none">
+              <div class="flex-shrink-0 px-4">
+                <img src="images/bajaj logo.png" alt="Logo 1" title="Yoloh" class="object-contain w-40 h-16" />
+              </div>
+              <div class="flex-shrink-0 px-4">
+                <img src="images/star11-removebg-preview.png" alt="Logo 2" title="PointC"
+                  class="object-contain w-40 h-16" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partners end here -->
+
+
+    <section class="relative w-full h-full overflow-hidden"
+      style="background-color:#22c6f9 ;background-image:repeating-linear-gradient(120deg, transparent, transparent 3px, rgba(26, 27, 72, 0.6) 3px, rgba(26, 27, 72, 0.6) 4px)">
+      <div
+        class="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 grid-rows-1 gap-4 max-w-7xl mx-auto py-14 lg:py-10 px-4 lg:px-0">
+        <div
+          class="w-full col-span-4 col-start-1 sm:col-span-6 lg:col-span-8 sm:col-start-2 lg:col-start-3 flex justify-center flex-col">
+          <div class="w-full flex flex-col gap-5 items-center justify-center mb-4">
+            <p id="" class="font-semibold text-3xl text-white lg:text-5xl xl:text-[56px] text-center" title="">
+              Testimonials</p>
+            <p id="" class="whitespace-nowrap font-normal text-xl lg:text-3xl xl:text-4xl text-black text-center"
+              title="">Happy Customers About Us</p>
+            
+          <div class="relative w-full flex justify-center col-span-8 col-start-3 mt-4">
+            <div
+              class="bg-white rounded-2xl shadow-lg px-8 py-8 max-w-2xl w-full h-fit flex flex-col justify-center items-center transition-all duration-500 relative">
+              <div class="absolute left-4 top-4 w-6 h-6 opacity-40"><svg width="26" height="23" viewBox="0 0 26 23"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.912 22.408C17.232 21.96 16 21.0267 15.216 19.608C14.432 18.152 14.04 16.5653 14.04 14.848C14.04 11.5627 15.048 8.72533 17.064 6.336C19.1173 3.94667 21.5813 2.136 24.456 0.903999L25.352 2.528V3.032C24.344 3.368 23.3173 4.04 22.272 5.048C21.264 6.056 20.424 7.26933 19.752 8.688C19.08 10.0693 18.744 11.488 18.744 12.944C18.744 14.2133 19.0427 15.352 19.64 16.36C20.2373 17.368 21.0773 17.9653 22.16 18.152L22.048 19.048L18.912 22.408ZM5.752 22.408C4.072 21.96 2.84 21.0267 2.056 19.608C1.272 18.152 0.88 16.5653 0.88 14.848C0.88 11.5627 1.888 8.72533 3.904 6.336C5.95733 3.94667 8.42133 2.136 11.296 0.903999L12.192 2.528V3.032C11.184 3.368 10.1573 4.04 9.112 5.048C8.104 6.056 7.264 7.26933 6.592 8.688C5.92 10.0693 5.584 11.488 5.584 12.944C5.584 14.2133 5.88267 15.352 6.48 16.36C7.07733 17.368 7.91733 17.9653 9 18.152L8.888 19.048L5.752 22.408Z"
+                    fill="#ADC6D8"></path>
+                </svg></div>
+              <div class="absolute right-4 bottom-4 w-6 h-6 opacity-40"><svg width="26" height="23" viewBox="0 0 26 23"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.1559 0.959998C21.8359 1.408 23.0679 2.36 23.8519 3.816C24.6359 5.23466 25.0279 6.80266 25.0279 8.52C25.0279 11.8053 24.0012 14.6427 21.9479 17.032C19.9319 19.4213 17.4865 21.232 14.6119 22.464L13.7159 20.84V20.336C14.7239 20 15.7319 19.328 16.7399 18.32C17.7852 17.312 18.6439 16.1173 19.3159 14.736C19.9879 13.3173 20.3239 11.88 20.3239 10.424C20.3239 9.15466 20.0252 8.016 19.4279 7.008C18.8305 6 17.9905 5.40266 16.9079 5.216L17.0199 4.32L20.1559 0.959998ZM6.99588 0.959998C8.67588 1.408 9.90788 2.36 10.6919 3.816C11.4759 5.23466 11.8679 6.80266 11.8679 8.52C11.8679 11.8053 10.8412 14.6427 8.78788 17.032C6.77188 19.4213 4.32654 21.232 1.45188 22.464L0.555875 20.84V20.336C1.56388 20 2.57188 19.328 3.57988 18.32C4.62521 17.312 5.48388 16.1173 6.15588 14.736C6.82788 13.3173 7.16388 11.88 7.16388 10.424C7.16388 9.15466 6.86521 8.016 6.26788 7.008C5.67054 6 4.83054 5.40266 3.74788 5.216L3.85988 4.32L6.99588 0.959998Z"
+                    fill="#ADC6D8"></path>
+                </svg></div>
+              <p id="testimonial-text"
+                class="text-[#222] text-center font-light text-xs md:text-base whitespace-pre-line px-4 transition-opacity duration-300 opacity-100">
+              </p>
+            </div>
+          </div>
+          <div class="mt-6 text-center w-full flex flex-col gap-5 items-center">
+            <div id="testimonial-author" class="font-bold  text-lg max-w-lg"></div>
+
+            <span id="testimonial-tag"
+              class="bg-[#FFEAA3] text-[#0B0F2B] px-4 py-1 rounded-full font-semibold text-xs mt-2 inline-block"></span>
+
+          </div>
+          <div id="testimonial-dots" class="flex gap-2 justify-center mt-4"></div>
+
+        </div>
+        <!-- this is js for the testimonial sec -->
+        <script>
+          const testimonials = [
+            {
+              text: "TrackSense Solutions brought my dream to life with the website. I had a vision for Get Redd Consulting, and they captured it better than I imagined.",
+              author: "salesForce",
+              tag: ""
+            },
+            {
+              text: "The team was incredibly professional and responsive. They delivered on time and exceeded expectations.",
+              author: "Dell",
+              tag: ""
+            },
+
+          ];
+
+          let currentIndex = 0;
+
+          const textEl = document.getElementById("testimonial-text");
+          const authorEl = document.getElementById("testimonial-author");
+          const tagEl = document.getElementById("testimonial-tag");
+          const dotsContainer = document.getElementById("testimonial-dots");
+
+          function renderDots() {
+            dotsContainer.innerHTML = "";
+            testimonials.forEach((_, index) => {
+              const dot = document.createElement("button");
+              dot.className =
+                "h-3 rounded-full transition-all duration-300 inline-block cursor-pointer";
+
+              if (index === currentIndex) {
+                dot.classList.add("bg-[#86C7FF]", "w-6");
+              } else {
+                dot.classList.add("border", "border-[#79799C]", "w-3");
+              }
+
+              dot.addEventListener("click", () => {
+                currentIndex = index;
+                updateCarousel();
+              });
+
+              dotsContainer.appendChild(dot);
+            });
+          }
+
+          function updateCarousel() {
+            textEl.style.opacity = 0;
+
+            setTimeout(() => {
+              textEl.textContent = testimonials[currentIndex].text;
+              authorEl.textContent = testimonials[currentIndex].author;
+              tagEl.textContent = testimonials[currentIndex].tag;
+              textEl.style.opacity = 1;
+              renderDots();
+            }, 200);
+          }
+
+          function nextSlide() {
+            currentIndex = (currentIndex + 1) % testimonials.length;
+            updateCarousel();
+          }
+
+          // Auto-slide every 5 seconds
+          setInterval(nextSlide, 5000);
+
+          // Initialize
+          updateCarousel();
+        </script>
+
+
+    </section>
+
+    <!-- this is the contact page  -->
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+  <!-- footer -->
+
+  <footer class="bg-white text-black  w-full px-4 lg:pb-5 xl:pb-10">
+    <div class="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 grid-rows-1 gap-5 max-w-7xl mx-auto">
+      <div
+        class="mx-auto col-span-4 sm:col-span-8 lg:col-span-8 xl:col-span-12 lg:col-start-2 xl:col-start-1 col-start-1 w-full py-10 md:py-6 flex flex-col md:flex-row items-center md:justify-between gap-6">
+        <div class="flex flex-col sm:flex-row items-center gap-5 md:gap-10 text-gray-300 text-xs order-3 md:order-1">
+          <a href="/"><img class="w-25" src="images/tracksenseLogo-removebg-preview.png" alt="EvolTech Logo"
+              class="h-8 w-auto" /></a><span
+            class="text-center text-xs lg:text-base font-normal sm:text-left text-black">Copyright © 2026
+            tracksensesolutions.</span>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center justify-center order-1 lg:order-2 gap-4">
+          <nav class="flex flex-nowrap justify-center gap-2 sm:gap-4 text-sm lg:text-base ">
+            <a class="hover:underline " href="#about">Services</a><span class="inline">/</span>
+            <a class="hover:underline " href="#services">About</a><span class=" inline">/</span><a
+              class="hover:underline" href="#" id="openContact">Contact Us</a>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script>
+    const openBtn = document.getElementById("openContact");
+    const closeBtn = document.getElementById("closeContact");
+    const contactSection = document.getElementById("contactSection");
+
+    openBtn.addEventListener("click", () => {
+      contactSection.style.display = "flex"; // show
+      document.body.style.overflow = "hidden"; // prevent scroll
+    });
+
+    closeBtn.addEventListener("click", () => {
+      contactSection.style.display = "none"; // hide
+      document.body.style.overflow = "auto"; // restore scroll
+    });
+  </script>
+
+
+
+
+
+
+  <script src="/_next/static/chunks/webpack-8cbf346320b4a273.js" async=""></script>
+  <script>(self.__next_f = self.__next_f || []).push([0])</script>
+  <script>self.__next_f.push([1, "1:\"$Sreact.fragment\"\n2:I[9243,[\"874\",\"static/chunks/874-e909718850e7282e.js\",\"989\",\"static/chunks/989-5693975384788e0d.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"177\",\"static/chunks/app/layout-0830301c609de587.js\"],\"\"]\n3:I[5016,[\"874\",\"static/chunks/874-e909718850e7282e.js\",\"989\",\"static/chunks/989-5693975384788e0d.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"177\",\"static/chunks/app/layout-0830301c609de587.js\"],\"default\"]\n4:I[1830,[\"874\",\"static/chunks/874-e909718850e7282e.js\",\"989\",\"static/chunks/989-5693975384788e0d.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"177\",\"static/chunks/app/layout-0830301c609de587.js\"],\"default\"]\n5:I[7555,[],\"\"]\n6:I[1295,[],\"\"]\n7:I[6874,[\"874\",\"static/chunks/874-e909718850e7282e.js\",\"989\",\"static/chunks/989-5693975384788e0d.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"177\",\"static/chunks/app/layout-0830301c609de587.js\"],\"\"]\n8:I[4990,[\"874\",\"static/chunks/874-e909718850e7282e.js\",\"989\",\"static/chunks/989-5693975384788e0d.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"177\",\"static/chunks/app/layout-0830301c609de587.js\"],\"default\"]\n9:I[3408,[\"80\",\"static/chunks/80-6c783074d4a8348d.js\",\"874\",\"static/chunks/874-e909718850e7282e.js\",\"643\",\"static/chunks/643-7897595c4af3fe8f.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"125\",\"static/chunks/125-66c9417491778a0d.js\",\"494\",\"static/chunks/494-e84941c78a1fb580.js\",\"974\",\"static/chunks/app/page-30c497077bc9f4fb.js\"],\"default\"]\na:I[5747,[\"80\",\"static/chunks/80-6c783074d4a8348d.js\",\"874\",\"static/chunks/874-e909718850e7282e.js\",\"643\",\"static/chunks/643-7897595c4af3fe8f.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"125\",\"static/chunks/125-66c9417491778a0d.js\",\"494\",\"static/chunks/494-e84941c78a1fb580.js\",\"974\",\"static/chunks/app/page-30c497077bc9f4fb.js\"],\"default\"]\nb:I[8350,[\"80\",\"static/chunks/80-6c783074d4a8348d.js\",\"874\",\"static/chunks/874-e909718850e7282e.js\",\"643\",\"static/chunks/643-7897595c4af3fe8f.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"125\",\"static/chunks/125-66c9417491778a0d.js\",\"494\",\"stati"])</script>
+  <script>self.__next_f.push([1, "c/chunks/494-e84941c78a1fb580.js\",\"974\",\"static/chunks/app/page-30c497077bc9f4fb.js\"],\"default\"]\nc:I[8876,[\"80\",\"static/chunks/80-6c783074d4a8348d.js\",\"874\",\"static/chunks/874-e909718850e7282e.js\",\"643\",\"static/chunks/643-7897595c4af3fe8f.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"125\",\"static/chunks/125-66c9417491778a0d.js\",\"494\",\"static/chunks/494-e84941c78a1fb580.js\",\"974\",\"static/chunks/app/page-30c497077bc9f4fb.js\"],\"default\"]\nd:I[588,[\"80\",\"static/chunks/80-6c783074d4a8348d.js\",\"874\",\"static/chunks/874-e909718850e7282e.js\",\"643\",\"static/chunks/643-7897595c4af3fe8f.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"125\",\"static/chunks/125-66c9417491778a0d.js\",\"494\",\"static/chunks/494-e84941c78a1fb580.js\",\"974\",\"static/chunks/app/page-30c497077bc9f4fb.js\"],\"default\"]\ne:I[1075,[\"80\",\"static/chunks/80-6c783074d4a8348d.js\",\"874\",\"static/chunks/874-e909718850e7282e.js\",\"643\",\"static/chunks/643-7897595c4af3fe8f.js\",\"132\",\"static/chunks/132-ba0d45a2ffc83908.js\",\"125\",\"static/chunks/125-66c9417491778a0d.js\",\"494\",\"static/chunks/494-e84941c78a1fb580.js\",\"974\",\"static/chunks/app/page-30c497077bc9f4fb.js\"],\"default\"]\nf:I[9665,[],\"MetadataBoundary\"]\n11:I[9665,[],\"OutletBoundary\"]\n14:I[4911,[],\"AsyncMetadataOutlet\"]\n16:I[9665,[],\"ViewportBoundary\"]\n18:I[6614,[],\"\"]\n:HL[\"/_next/static/media/4cf2300e9c8272f7-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/93f479601ee12b01-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/22170c7b3d3ebbd9.css\",\"style\"]\n:HL[\"/_next/static/media/82050c55ac1c8c11-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/16466131d8ae5843.css\",\"style\"]\n:HL[\"/_next/static/css/8bed9ef94e18e655.css\",\"style\"]\n"])</script>
+  <script>self.__next_f.push([1, "0:{\"P\":null,\"b\":\"tAxtq__0t9BcNGh6PH2iK\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/22170c7b3d3ebbd9.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"suppressHydrationWarning\":true,\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\"}],[\"$\",\"$L2\",null,{\"strategy\":\"afterInteractive\",\"src\":\"https://www.googletagmanager.com/gtag/js?id=G-BT21FKPMCH\"}],[\"$\",\"$L2\",null,{\"id\":\"google-analytics\",\"strategy\":\"afterInteractive\",\"children\":\"\\n            window.dataLayer = window.dataLayer || [];\\n            function gtag(){dataLayer.push(arguments);}\\n            gtag('js', new Date());\\n            gtag('config', 'G-BT21FKPMCH');\\n          \"}]]}],[\"$\",\"body\",null,{\"className\":\"__variable_188709 __variable_9a8899 antialiased font-gilroy\",\"children\":[[\"$\",\"$L3\",null,{}],[\"$\",\"div\",null,{\"id\":\"modal-root\"}],[\"$\",\"$L4\",null,{}],[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"footer\",null,{\"className\":\"bg-[#181B2B] text-white w-full px-4 lg:pb-5 xl:pb-10\",\"children\":[\"$\",\"div\",null,{\"className\":\"grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 grid-rows-1 gap-5 max-w-7xl mx-auto\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto col-span-4 sm:col-span-8  lg:col-span-8 xl:col-span-12 lg:col-start-2 xl:col-start-1 col-start-1 w-full py-10 md:py-6 flex flex-col md:flex-row items-center md:justify-between gap-6 \",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col sm:flex-row items-center gap-5 md:gap-10 text-gray-300 text-xs order-3 md:order-1\",\"children\":[[\"$\",\"$L7\",null,{\"href\":\"/\",\"children\":[\"$\",\"img\",null,{\"src\":\"/_next/static/media/logo.9ce0a9e7.svg\",\"alt\":\"EvolTech Logo\",\"className\":\"h-8 w-auto\"}]}],[\"$\",\"span\",null,{\"className\":\"text-center text-xs lg:text-base font-normal sm:text-left text-[#AAAAAA]\",\"children\":\"Copyright © 2025 EvolTech.\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-col sm:flex-row items-center justify-center order-1 lg:order-2 gap-4\",\"children\":[[\"$\",\"nav\",null,{\"className\":\"flex flex-nowrap justify-center gap-2 sm:gap-4 text-sm lg:text-base text-white\",\"children\":[[\"$\",\"$L7\",null,{\"href\":\"/about\",\"className\":\"hover:underline\",\"children\":\"Who We Are\"}],[\"$\",\"span\",null,{\"className\":\"text-gray-500 inline\",\"children\":\"/\"}],[\"$\",\"$L7\",null,{\"href\":\"/services/consulting\",\"className\":\"hover:underline\",\"children\":\"Services\"}],[\"$\",\"span\",null,{\"className\":\"text-gray-500 inline\",\"children\":\"/\"}],[\"$\",\"$L7\",null,{\"href\":\"/products\",\"className\":\"hover:underline\",\"children\":\"Products\"}],[\"$\",\"span\",null,{\"className\":\"text-gray-500 inline\",\"children\":\"/\"}],[\"$\",\"$L7\",null,{\"href\":\"/careers\",\"className\":\"hidden lg:flex hover:underline\",\"children\":\"Careers\"}],[\"$\",\"span\",null,{\"className\":\"hidden lg:inline text-gray-500\",\"children\":\"/\"}],[\"$\",\"$L7\",null,{\"href\":\"/contact\",\"className\":\"hover:underline\",\"children\":\"Contact\"}]]}],[\"$\",\"div\",null,{\"className\":\"flex gap-6 justify-center text-[#AAAAAA] sm:-mt-1\",\"children\":[[\"$\",\"a\",null,{\"href\":\"https://www.linkedin.com/company/evoltechgroup/\",\"className\":\"hover:opacity-80\",\"aria-label\":\"Connect on LinkedIn\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"children\":[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":15,\"height\":15,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-linkedin\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",\"c2jq9f\",{\"d\":\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"}],[\"$\",\"rect\",\"mk3on5\",{\"width\":\"4\",\"height\":\"12\",\"x\":\"2\",\"y\":\"9\"}],[\"$\",\"circle\",\"bt5ra8\",{\"cx\":\"4\",\"cy\":\"4\",\"r\":\"2\"}],\"$undefined\"]}]}],[\"$\",\"a\",null,{\"href\":\"mailto:info@evoltechgroup.com\",\"className\":\"hover:opacity-80\",\"aria-label\":\"Send Mail\",\"children\":[\"$\",\"svg\",null,{\"ref\":\"$undefined\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":15,\"height\":15,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-mails\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"rect\",\"1drq3f\",{\"width\":\"16\",\"height\":\"13\",\"x\":\"6\",\"y\":\"4\",\"rx\":\"2\"}],[\"$\",\"path\",\"xn252p\",{\"d\":\"m22 7-7.1 3.78c-.57.3-1.23.3-1.8 0L6 7\"}],[\"$\",\"path\",\"n13cji\",{\"d\":\"M2 8v11c0 1.1.9 2 2 2h14\"}],\"$undefined\"]}]}]]}]]}]]}]}]}],[\"$\",\"$L8\",null,{}]]}]]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"main\",null,{\"className\":\"bg-[#0B0F2B] text-white min-h-screen overflow-hidden\",\"children\":[[\"$\",\"$L9\",null,{}],[\"$\",\"$La\",null,{}],[\"$\",\"$Lb\",null,{}],[\"$\",\"$Lc\",null,{}],[\"$\",\"$Ld\",null,{\"type\":\"home\"}],[\"$\",\"$Le\",null,{}]]}],[\"$\",\"$Lf\",null,{\"children\":\"$L10\"}],[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/16466131d8ae5843.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/8bed9ef94e18e655.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"$L11\",null,{\"children\":[\"$L12\",\"$L13\",[\"$\",\"$L14\",null,{\"promise\":\"$@15\"}]]}]]}],{},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"Yvp3B6pVqJXwpzuKI19Ph\",{\"children\":[[\"$\",\"$L16\",null,{\"children\":\"$L17\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],null]}],false]],\"m\":\"$undefined\",\"G\":[\"$18\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script>
+  <script>self.__next_f.push([1, "19:\"$Sreact.suspense\"\n1a:I[4911,[],\"AsyncMetadata\"]\n10:[\"$\",\"$19\",null,{\"fallback\":null,\"children\":[\"$\",\"$L1a\",null,{\"promise\":\"$@1b\"}]}]\n"])</script>
+  <script>self.__next_f.push([1, "13:null\n"])</script>
+  <script>self.__next_f.push([1, "17:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n12:null\n"])</script>
+  <script>self.__next_f.push([1, "1b:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Evoltech\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"EvolTech builds AI, cloud and full‑stack solutions to turn visionary ideas into reality.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"application-name\",\"content\":\"EvolTech\"}],[\"$\",\"meta\",\"3\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"link\",\"4\",{\"rel\":\"canonical\",\"href\":\"https://www.evoltechgroup.com\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:title\",\"content\":\"Evoltech | EvolTech\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:description\",\"content\":\"EvolTech builds AI, cloud and full‑stack solutions to turn visionary ideas into reality.\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:url\",\"content\":\"https://www.evoltechgroup.com\"}],[\"$\",\"meta\",\"8\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"9\",{\"name\":\"twitter:title\",\"content\":\"EvolTech\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:description\",\"content\":\"We bring visionary ideas to life with cutting-edge tech, strategic consulting, and seamless back office solutions.\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:image\",\"content\":\"https://www.evoltechgroup.com/assets/og-default.svg\"}],[\"$\",\"link\",\"12\",{\"rel\":\"icon\",\"href\":\"https://www.evoltechgroup.com/assets/og-default.svg\"}]],\"error\":null,\"digest\":\"$undefined\"}\n15:{\"metadata\":\"$1b:metadata\",\"error\":null,\"digest\":\"$undefined\"}\n"])</script>
+
+</body>
+
+</html>
