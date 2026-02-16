@@ -2294,7 +2294,7 @@
     }
 
     .p-5 {
-        padding: calc(var(--spacing)*5)
+        padding: calc(var(--spacing)*10)
     }
 
     .p-6 {
